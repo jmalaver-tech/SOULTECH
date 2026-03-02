@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maquinaria Electrica </title>
+    <meta name="description" content="Cotiza maquinaria electrica industrial y casera de segunda mano. Pulidoras, lijadoras, demoledores, rotomartillos y demas maquinaria de todas las marcas asesoria via WhatsApp."></meta>
+    <meta name="keywords" content="maquinaria segunda mano, herramientas electricas, Makita, Bosch, Dewalt, cotizacion WhatsApp, herramientas industriales">
+    <meta name="author" content="Soultech">
+    <link rel="canonical" href="https://Soultech.com">
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta property="og:title" content="Cotiza Herramientas Electricas De Todas Las Marcas">
+    <meta property="og:description" content="Catalogo de maquinaria de segunda mano para uso industrial.">
+    <meta property="og:image" content="https://Soultech.com/imagenes/og-image.jpg"> <meta property="og:url" content="https://Soultech.com/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header"> 
+        <div class="logo">
+            <img src="imagenes/logotipo sin fondo.png" alt="Logotipo" style="height: 55px; width: auto;">
+        </div>
+        <nav class="nav-options">
+            <ul>
+                <li><a href="#" id="aboutTrigger" class="nav-link">Nosotros</a></li>
+                <li class="cart-item">
+                    <div class="cart-trigger" id="cartTrigger">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                    <div class="cart-dropdown" id="cartDropdown">
+                        <button id="closeCart" class="close-cart-mobile">&times;</button>
+
+                        <div class="cart-header">
+                            <h4>Tu carrito</h4>
+                        </div>
+
+                        <div id="cartItemsContainer">
+                            <p class="empty-msg">El carrito esta vacio</p>
+                        </div>
+                        
+
+                        <div class="cart-footer">
+                            <button class="whatsapp" id="btnComprar">Finalizar</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>HERRAMIENTA ELECTRICA</h1>
+        <p>Uso industrial y casero. <br> la cotizacion se efectua via WhatsApp</p>
+        <!--productos -->
+        <section  id="contenedorProductos" class="productos">
+            <h2>Productos disponibles</h2>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Los productos se muestran solo para cotización. La compra se cierra via WhatsApp.</p>
+    </footer>
+
+    <a href="https://wa.me/573107843769?text=Hola%20Soultech,%20estoy%20viendo%20tu%20catálogo%20y%20tengo%20una%20pregunta." 
+    class="whatsapp-float" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    title="Chatea con nosotros">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <div id="productModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-gallery">
+                    
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDesc"></p>
+                    <div class="modal-status">Estado: <span>Garantizado / Segunda mano</span></div>
+                    <button class="whatsapp-direct" id="btnWhaDirect">Preguntar por Whatsapp</button>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <div id="aboutModal" class="modal-overlay">
+        <div class="modal-content about-style">
+            <span class="close-modal" id="closeAbout">&times;</span>
+            <div class="about-header">
+                <img src="imagenes/logotipo sin fondo.png" alt="Soultech Logo" class="about-logo">
+                <h2>Sobre Soultech</h2>
+            </div>
+            <div class="about-text">
+                <p><strong>Especialistas en Maquinaria de Segunda Mano y Reparacion.</strong></p>
+                <p>En Soultech nos dedicamos a dar una segunda vida a herramientas industriales y caseras, garantizando calidad y rendimiento a precios accesibles. <br> Visitanos: CLL 47 B sur #27-99 (Atendemos por ventanilla) </p>
+                <ul>
+                    <li>✅ Revisión técnica garantizada.</li>
+                    <li>✅ Asesoría personalizada vía WhatsApp.</li>
+                    <li>✅ Reparacion cualificada.</li>
+                </ul>
+                <p>Nuestra misión es facilitar el acceso a herramientas de alta gama (Makita, Bosch, DeWalt entre otras mas) para trabajadores y entusiastas del bricolaje.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+    <script src="app.js"></script>
+</body>
+</html>
