@@ -1,52 +1,120 @@
 [
     {
         "id": "101",
-        "nombre": "Pulidora Makita",
-        "imagens": "imagenes/img_1.png",
+        "nombre": "Pulidora Makita 9020",
+        "imagens": "imagenes/Portada_pulidoraMK.png",
         "imagen":[
-            "imagenes/img_2.png",
-            "imagenes/img_4.png"
+            "imagenes/PulidoraMK-1.jpeg",
+            "imagenes/PulidoraMK_2.jpeg",
+            "imagenes/PulidoraMK-3.jpeg"
         ],
-        "categoria": "mini-Pulidoras",
-        "descripcion": "Uso industrial, 7 pulgadas"
+        "categoria": "Pulidoras",
+        "descripcion": "Modelo: Ga9020, Reparada y revisada"
     },
     {
         "id": "102",
-        "nombre": "Lijadora Makita", 
-        "imagens":"imagenes/img_2.png",
+        "nombre": "Lijadora de palma Makita", 
+        "imagens":"imagenes/Portada_lijadoraMK.png",
         "imagen": [
+            "imagenes/LijadoraMK-1.jpeg",
+            "imagenes/LijadoraMK-2.jpeg",
+            "imagenes/LijadoraMK-3.jpeg"
         ],
         "categoria": "Lijadoras",
-        "descripcion": "Orbital profesional"
+        "descripcion": "Modelo: BO4556, Reparada y revisada"
     },
     {
         "id": "103",
-        "nombre": "Rotomartillo Makita",
-        "imagens": "imagenes/img_3.png",
+        "nombre": "Pulidora Dewalt",
+        "imagens": "imagenes/Portada_pulidoraDW.png",
         "imagen": [
-            
+            "imagenes/PulidoraDW-1.jpeg",
+            "imagenes/PulidoraDW-2.jpeg",
+            "imagenes/PulidoraDW-3.jpeg"
         ],
-        "categoria": "Perforación",
-        "descripcion": "Mandril de 1/2 pulgada"
+        "categoria": "Pulidoras",
+        "descripcion": "Modelo: DWE490, Reparada y revisada"
     },
     {
         "id": "104",
-        "nombre": "Pulidora bosch",
-        "imagens": "imagenes/img_4.png",
+        "nombre": "Mini pulidora Skill",
+        "imagens": "imagenes/Portada_MnpulidoraSk.png",
         "imagen": [
-            
+            "imagenes/Mn_pulidora_skill-1.jpeg",
+            "imagenes/Mn_pulidora_skill-2.jpeg",
+            "imagenes/Mn_pulidora_skill-3.jpeg"
         ],
-        "categoria": "Pulidoras",
-        "descripcion": "pulidora 3/4"
+        "categoria": "Mini_pulidoras",
+        "descripcion": "Modelo: 9002, Reparada y revisada"
     },
     {
         "id": "105",
-        "nombre": "Demoledor generico",
-        "imagens": "imagenes/img_5.png",
+        "nombre": "Mini pulidora Total",
+        "imagens": "imagenes/Portada_MnpulidoraTT.png",
         "imagen": [
-        
+            "imagenes/Mn_pulidora_total-1.jpeg",
+            "imagenes/Mn_pulidora_total-1.jpeg",
+            "imagenes/Mn_pulidora_total-1.jpeg"
         ],
-        "categoria": "Perforación",
-        "descripcion": "Taladro Demoledor"
+        "categoria": "Mini_pulidoras",
+        "descripcion": "Modelo: TG10711556, Reparada y revisada"
+    },
+    {
+        "id": "106",
+        "nombre": "Picador bosch GBH 4-32 DFR ",
+        "imagens": "imagenes/Portada_picadorBCHS.png",
+        "imagen": [
+            "imagenes/Picador_bosch-1.jpeg",
+            "imagenes/Picador_bosch-2.jpeg"
+        ],
+        "categoria": "Picadores",
+        "descripcion": "Modelo: Gbh 4-32, Reparada y revisada"
+    },
+    {
+        "id": "107",
+        "nombre": "Pistola de calor Dewalt",
+        "imagens": "imagenes/portada_pistola.png",
+        "imagen": [
+            "imagenes/Pistola_calorDW-1.jpeg",
+            "imagenes/Pistola_calorDW-2.jpeg",
+            "imagenes/Pistola_calorDW-3.jpeg"
+        ],
+        "categoria": "Pistolas_de_calor",
+        "descripcion": "Modelo: D26411, Reparada y revisada"
+    },
+    {
+        "id": "108",
+        "nombre": "Rutiadora discover",
+        "imagens": "imagenes/Portada_rutiadoraDV.png",
+        "imagen": [
+            "imagenes/Rutiadora_discover-1.jpeg",
+            "imagenes/Rutiadora_discover-2.jpeg"
+        ],
+        "categoria": "Rutiadora",
+        "descripcion": "Modelo: -----, Reparada y revisada"
+    },
+    {
+        "id": "109",
+        "nombre": "Taladro bosch 1184",
+        "imagens": "imagenes/Portada_TaladroBCHS.png",
+        "imagen": [
+            "imagenes/Taladro_bosch_vm-1.jpeg",
+            "imagenes/Taladro_bosch_vm-2.jpeg",
+            "imagenes/Taladro_bosch_vm-3.jpeg"
+        ],
+        "categoria": "Taladros",
+        "descripcion": "Modelo: 1184, Reparada y revisada"
+    },
+    {
+        "id": "110",
+        "nombre": "Tronzadora truper",
+        "imagens": "imagenes/Portada_tronzadoraTP.png",
+        "imagen": [
+            "imagenes/Tronzadora_truper-1.jpeg",
+            "imagenes/Tronzadora_truper-2.jpeg",
+            "imagenes/Tronzadora_truper-3.jpeg"
+        ],
+        "categoria": "Tronzadora",
+        "descripcion": "Modelo: M730, Reparada y revisada"
     }
 ]
