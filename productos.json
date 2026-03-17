@@ -73,7 +73,7 @@
     {
         "id": "107",
         "nombre": "Pistola de calor Dewalt",
-        "imagens": "imagenes/portada_pistola.png",
+        "imagens": "imagenes/Portada_pistola.png",
         "imagen": [
             "imagenes/Pistola_calorDW-1.jpeg",
             "imagenes/Pistola_calorDW-2.jpeg",
@@ -96,7 +96,7 @@
     {
         "id": "109",
         "nombre": "Taladro bosch 1184",
-        "imagens": "imagenes/Portada_TaladroBCHS.png",
+        "imagens": "imagenes/Portada_taladroBCHS.png",
         "imagen": [
             "imagenes/Taladro_bosch_vm-1.jpeg",
             "imagenes/Taladro_bosch_vm-2.jpeg",
