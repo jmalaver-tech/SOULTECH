@@ -13,7 +13,7 @@
     },
     {
         "id": "102",
-        "nombre": "Lijadora de palma Makita", 
+        "nombre": "Lijadora de palma Makita. VENDIDA", 
         "imagens":"imagenes/Portada_lijadoraMK.png",
         "imagen": [
             "imagenes/LijadoraMK-1.jpeg",
@@ -37,7 +37,7 @@
     },
     {
         "id": "104",
-        "nombre": "Mini pulidora Skill",
+        "nombre": "Mini pulidora Skill. VENDIDA",
         "imagens": "imagenes/Portada_MnpulidoraSk.png",
         "imagen": [
             "imagenes/Mn_pulidora_skill-1.jpeg",
@@ -107,7 +107,7 @@
     },
     {
         "id": "110",
-        "nombre": "Tronzadora BLack y decker",
+        "nombre": "Tronzadora BLack y decker VENDIDA",
         "imagens": "imagenes/Portada_tronzadoraTP.png",
         "imagen": [
             "imagenes/Tronzadora_truper-1.jpeg",
@@ -116,5 +116,23 @@
         ],
         "categoria": "Tronzadora",
         "descripcion": "Modelo: M730, Reparada y revisada"
+    },
+    {
+        "id": "111",
+        "nombre": "Mini pulidora intop",
+        "imagens": "imagenes/Mini_intop.jpg",
+        "imagen": [
+        ],
+        "categoria": "Mini_pulidoras",
+        "descripcion": "Mini pulidora intop de velocidades, totalmente nueva, ademas de una mejora garantizada por nuestro personal cualificado."
+    },
+    {
+        "id": "112",
+        "nombre": "Taladro inalambrico 21v",
+        "imagens": "imagenes/Portada_taladro_inalambrico.png",
+        "imagen": [
+        ],
+        "categoria": "Taladros_inalambricos",
+        "descripcion": "Taladro inalambrico, totalmente nuevo de 21v con dos pilas y quit de puntas"
     }
-]
+    ]
