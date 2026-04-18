@@ -62,7 +62,27 @@
             <h2>Productos disponibles</h2>
         </section>
     </main>
-    
+
+    <div id="update-banner" style="display:none; position:fixed; bottom:20px; right:20px; background:#333; color:#fff; padding:15px; border-radius:8px;">
+        ¡Hay una versión nueva de Soultech! 
+        <button onclick="window.location.reload()">Actualizar</button>
+    </div>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').then(reg => {
+          reg.addEventListener('updatefound', () => {
+            const newWorker = reg.installing;
+            newWorker.addEventListener('statechange', () => {
+              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                // Se detectó una actualización
+                document.getElementById('update-banner').style.display = 'block';
+              }
+            });
+          });
+        });
+      }
+    </script>
     <footer>
         <p>Los productos se muestran solo para cotización. La compra se cierra via WhatsApp.</p>
     </footer>

@@ -242,3 +242,12 @@ window.addEventListener('click', (e) => {
         document.body.style.overflow = 'auto';
     }
 });
+
+// sw.js
+self.addEventListener('install', (event) => {
+  self.skipWaiting(); // Fuerza la instalación inmediata
+});
+
+self.addEventListener('activate', (event) => {
+  console.log('Service Worker activado');
+});
